@@ -1,0 +1,147 @@
+{
+  "liblabVersion": "2.1.18",
+  "date": "2024-07-08T22:17:12.121Z",
+  "config": {
+    "apiId": 405,
+    "sdkName": "ups-0auth-client-credentials",
+    "sdkVersion": "1.0.0",
+    "liblabVersion": "2",
+    "deliveryMethods": ["zip"],
+    "languages": ["python"],
+    "apiVersion": "1.0.0",
+    "apiName": "ups-0auth-client-credentials-api",
+    "specFilePath": "./UPS/ups_OAuthClientCredentials.yaml",
+    "auth": ["basic"],
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "ups-0auth-client-credentials",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      },
+      "typescript": {
+        "bundle": false,
+        "exportClassDefault": false,
+        "httpClient": "axios",
+        "npmName": "ups_0auth_client_credentials",
+        "npmOrg": "liblab_hub",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      }
+    },
+    "publishing": {
+      "githubOrg": ""
+    },
+    "devContainer": true,
+    "generateEnv": true,
+    "includeOptionalSnippetParameters": true,
+    "inferServiceNames": false,
+    "injectedModels": [],
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "path": "MIT.ejs"
+    },
+    "responseHeaders": false,
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "authentication": {
+      "basic": {
+        "enabled": true
+      }
+    },
+    "multiTenant": true,
+    "specUrl": "https://dev-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/405/open-api-spec.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA3C2RXH7MWUCMN7ON%2F20240708%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240708T221707Z&X-Amz-Expires=43200&X-Amz-Signature=a2498fe8aa4fe8809069d4479b35243e44bfdab484dd73bc70585368276bfffd&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "workflow": null,
+    "includeWatermark": true,
+    "alwaysInitializeOptionals": false,
+    "pypiPackageName": "ups-0auth-client-credentials",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "usesFormData": false,
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.6.8"
+      },
+      "languages": ["typescript"]
+    },
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    }
+  },
+  "files": [
+    "src/ups_0auth_client_credentials/models/base.py",
+    "src/ups_0auth_client_credentials/models/utils/json_map.py",
+    "src/ups_0auth_client_credentials/models/__init__.py",
+    "src/ups_0auth_client_credentials/services/__init__.py",
+    "src/ups_0auth_client_credentials/__init__.py",
+    "src/ups_0auth_client_credentials/net/__init__.py",
+    "src/ups_0auth_client_credentials/net/headers/__init__.py",
+    "src/ups_0auth_client_credentials/net/transport/__init__.py",
+    "src/ups_0auth_client_credentials/hooks/__init__.py",
+    "src/ups_0auth_client_credentials/net/environment/__init__.py",
+    "src/ups_0auth_client_credentials/net/request_chain/__init__.py",
+    "src/ups_0auth_client_credentials/net/request_chain/handlers/__init__.py",
+    "src/ups_0auth_client_credentials/net/transport/request.py",
+    "src/ups_0auth_client_credentials/net/transport/response.py",
+    "src/ups_0auth_client_credentials/net/transport/request_error.py",
+    "src/ups_0auth_client_credentials/sdk.py",
+    "src/ups_0auth_client_credentials/net/transport/serializer.py",
+    "src/ups_0auth_client_credentials/services/utils/validator.py",
+    "src/ups_0auth_client_credentials/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/ups_0auth_client_credentials/models/utils/cast_models.py",
+    "src/ups_0auth_client_credentials/net/transport/utils.py",
+    "src/ups_0auth_client_credentials/hooks/hook.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/ups_0auth_client_credentials/net/headers/base_header.py",
+    "src/ups_0auth_client_credentials/net/headers/basic_auth.py",
+    "src/ups_0auth_client_credentials/net/environment/environment.py",
+    "src/ups_0auth_client_credentials/net/request_chain/request_chain.py",
+    "src/ups_0auth_client_credentials/net/request_chain/handlers/base_handler.py",
+    "src/ups_0auth_client_credentials/net/request_chain/handlers/http_handler.py",
+    "src/ups_0auth_client_credentials/net/request_chain/handlers/hook_handler.py",
+    "src/ups_0auth_client_credentials/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    ".env.example",
+    "/examples/.env.example",
+    "src/ups_0auth_client_credentials/services/utils/default_headers.py",
+    "./LICENSE",
+    ".devcontainer/devcontainer.json",
+    "documentation/models/CreateTokenRequest.md",
+    "documentation/models/TokenSuccessResponse.md",
+    "src/ups_0auth_client_credentials/services/security.py",
+    "src/ups_0auth_client_credentials/models/create_token_request.py",
+    "src/ups_0auth_client_credentials/models/token_success_response.py",
+    "documentation/services/SecurityService.md",
+    "README.md"
+  ]
+}
