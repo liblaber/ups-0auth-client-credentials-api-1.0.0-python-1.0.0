@@ -18,5 +18,3 @@ venv.bak/
 
 # Devcontainer
 .devcontainer/
-
-.github
